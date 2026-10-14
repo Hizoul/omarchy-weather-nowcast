@@ -22,7 +22,11 @@ git clone https://github.com/Hizoul/rusty-bui.git && cd rusty-bui && ./install.s
 omarchy plugin add https://github.com/Hizoul/omarchy-weather-nowcast.git --enable
 ```
 
-Set your location: `rustybui set-location "Leiden" --lat 52.16 --lon 4.49 --country NL --timezone Europe/Amsterdam`
+Set your location: `rustybui set-location "Leiden" --lat 52.16 --lon 4.49 --country NL --timezone Europe/Amsterdam`.
+
+Remove it with `omarchy plugin remove mmb.rainnowcast` and delete the binary
+at `~/.local/bin/rustybui` (plus the caches under `~/.cache/rustybui`, if you
+want them gone too).
 
 ## Attribution
 
